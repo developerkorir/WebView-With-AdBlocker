@@ -257,7 +257,7 @@ public class MainActivity extends AppCompatActivity {
                 ad = AdBlock.isAd(url);
                 loadedUrls.put(url, ad);
             } else {
-                ad = loadedUrls.get(url);
+                ad = Boolean.TRUE.equals(loadedUrls.get(url));
             }
             return ad;
         }
