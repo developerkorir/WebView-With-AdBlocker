@@ -37,5 +37,30 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
+    //Additional Dependency section
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+
+    //Ad Section
+    //Anythink (Necessary)
+    api "com.anythink.sdk:core:6.1.55"
+    api "com.anythink.sdk:nativead:6.1.55"
+    api "com.anythink.sdk:banner:6.1.55"
+    api "com.anythink.sdk:interstitial:6.1.55"
+    api "com.anythink.sdk:rewardedvideo:6.1.55"
+    api "com.anythink.sdk:splash:6.1.55"
+
+    //Androidx (Necessary)
+    api "androidx.browser:browser:1.5.0"
+
+    //Facebook
+    api "com.anythink.sdk:adapter-facebook:6.1.55"
+    api "com.facebook.android:audience-network-sdk:6.12.0"
+    api "androidx.annotation:annotation:1.6.0"
+
+    //Admob
+    api "com.anythink.sdk:adapter-admob:6.1.55"
+    api "com.google.android.gms:play-services-ads:21.5.0"
+
+    //Tramini
+    api "com.anythink.sdk:tramini-plugin:6.1.55"
 }

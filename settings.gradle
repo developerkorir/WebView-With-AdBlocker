@@ -10,6 +10,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url "https://anythink.jfrog.io/artifactory/android_sdk"
+        }
     }
 }
 rootProject.name = "AdBlock WebView"
